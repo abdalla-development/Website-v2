@@ -1,0 +1,128 @@
+/*Main*/
+/**********************************************************************************************************************************************************************************************************************************/
+body{
+  background-color: #1A5F7A;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 120px;
+}
+section{
+  padding-top: 2%;
+  width: 100%;
+}
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  background-color: #7C99AC;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+}
+h3 {
+  font-family: 'Bree Serif', serif;
+}
+/*Classes*/
+/**********************************************************************************************************************************************************************************************************************************/
+.responsive{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.footer{
+  padding: 0.5%;
+}
+.icon {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.download{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #7C99AC;
+  top: 0;
+}
+.doc-hide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    z-index: 10;
+    margin-top: 10%;
+    margin-left: 25%;
+    text-align: center;
+    display: none;
+}
+.v-doc-hide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 2%;
+    z-index: 10;
+    margin-top: 1%;
+    margin-left: 25%;
+    text-align: center;
+    display: none;
+}
+.d-doc-hide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 5%;
+    z-index: 10;
+    margin-top: 10%;
+    margin-left: 25%;
+    text-align: center;
+    display: none;
+}
+.skill-image {
+  padding-bottom: 15px;
+}
+.btn-outline-info, .btn-outline-dark, .btn-outline-success, .btn-outline-primary{
+  border-radius: 15px;
+}
+.img-icon {
+  border-radius: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.copyright {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+.label {
+  font-family: 'MuseoModerno', cursive;
+}
+.nav-link-color {
+  color: #0F0E0E;
+  text-decoration:none;
+}
+.nav-link-color a:hover {
+  color: #091353;
+  text-decoration: underline;
+}
+/*ID's*/
+/**********************************************************************************************************************************************************************************************************************************/
+#Introduction, #Skills, #Technical, #Education, #Certificates, #Courses, #Experience, #Portfolio, #Contact {
+  background-color: #22577E;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  border: 3px solid grey;
+  /* position: relative; */
+}
+/* #Introduction {
+  margin-top: 5%;
+} */
+/*Media Query*/
+/**********************************************************************************************************************************************************************************************************************************/
